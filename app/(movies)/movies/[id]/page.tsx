@@ -3,7 +3,6 @@ import { URL } from "../../../(home)/page";
 import MovieInfo from "../../../../components/movie-info";
 import MovieVideos from "../../../../components/movie-videos";
 
-
 export default async function MovieDetail({ params: { id } }) {
   // const movie = await getMovie(id);
   // const videos = await getVideos(id);
