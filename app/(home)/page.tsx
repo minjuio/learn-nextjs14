@@ -1,12 +1,11 @@
 import Link from "next/link";
 import styles from "../../styles/home.module.css";
 import Movie from "../../components/movie";
+import { URL } from "../constants";
 
 export const metadata = {
   title: "Home",
 }
-
-export const URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 async function getMovies() {
   // return fetch(URL).then(res => res.json())

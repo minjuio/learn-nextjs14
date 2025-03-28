@@ -1,5 +1,4 @@
-import {URL} from "../app/(home)/page";
-
+import { URL } from "../app/constants";
 export default function Credits({id}: {id:string}) {
-  
+
 }
